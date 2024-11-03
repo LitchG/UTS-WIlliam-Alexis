@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzizzzzz turu | Ndang cepet !</title>
+    <link rel="stylesheet" href="D:\TUGAS WIAM\Tugas Baru\UTS PEMWEB QUIZ CSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/675dac8557.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/2839/2839259.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <div class="Logo">
+            <img src="https://cdn-icons-png.flaticon.com/128/2839/2839259.png" height="24" width="24" alt="">
+            <h2>Quiz pemula css "NOOB" </h2>
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+        </ul>
+    </nav>
+     <div class="container">
+        <div class="left">
+            <h1>WOY QUIZ WOY </h1>
+            <p>kamu cupu/noob CSS... ikut quiz ini aja ya cupu biar luwh pada bisa jago kek gweh</p>
+        </div>
+        <div class="right">
+            <img src="https://cdn-icons-png.flaticon.com/256/11201/11201642.png" alt="">
+        </div>
+     </div>
+
+    <div class="startButton"><button>Start Quiz</button></div>
+
+    <div class="infoBox">
+        <div class="infoTitle">
+            <span>Rules </span>
+        </div>
+        <ol class="infoList">
+            <li class="info">Setiap 1 pertanyaan memiliki batas waktu 15-detik.</li>
+            <li class="info">Intinya kerjain aja ya jangan banyak nanya.</li>
+            <li class="info">blablabla.</li>
+        </ol>
+        <div class="buttons">
+            <button class="quit">blm mulai kok nyerak dek.</button>
+            <button class="restart">GAS</button>
+        </div>
+    </div>
+
+    <div class="quizBox">
+        <header>
+            <div class="title">Quiz pemula</div>
+            <div class="timer">
+                <div class="timerText">Waktu tersisa</div>
+                <div class="timerTime">15</div>
+            </div>
+            <div class="timeLine"></div>
+        </header>
+        <section>
+            <div class="queText">
+            </div>
+            <div class="optionList">
+            </div>
+        </section>
+        <footer>
+            <div class="totalQue">
+            </div>
+            <button class="nextQue">Next</button>
+        </footer>
+    </div>
+    <div class="resultBox">
+        <div class="icon">
+            <img src="https://cdn-icons-png.flaticon.com/256/6811/6811291.png" height="200px" width="200px" alt="">
+        </div>
+        <div class="textDesc">Wush keren udh kelar quiznya.. EZ kan.</div>
+        <div class="scoreText">
+        </div>
+        <div class="buttons">
+            <button class="restart">Kasian nilainya jelek awokawok </button>
+            <button class="quit">Kelar</button>
+        </div>
+    </div>
+
+    <script src="D:\TUGAS WIAM\Tugas Baru\UTS PEMWEB QUIZ JS.js"></script>
+
+</body>
+
+</html>
